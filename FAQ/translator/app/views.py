@@ -1,9 +1,9 @@
 
 # Create your views here.
 from django.shortcuts import render
-from translate import Translator
+from translate import Translator # type: ignore
 from . import views
-from translator import views
+
 # Create your views here.
 
 
